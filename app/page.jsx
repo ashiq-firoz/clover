@@ -12,7 +12,9 @@ export default function Home() {
   return (
     <>
       <ParallaxComponent />
+      <section className=' bg-gradient-to-b from-green-700 via-emerald-400 to-emerald-200'>
       <AboutComponent/>
+      </section>
       <BentoComponent />
       <ContactComponent/>
     </>

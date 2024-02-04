@@ -3,7 +3,7 @@ import { FiSend } from "react-icons/fi";
 
 const AboutComponent = () => { 
     return (
-        <div className="container bg-gradient-to-b from-green-700 via-emerald-400 to-emerald-200 py-8 px-8  ">
+        <section className="container py-8 px-8  ">
             <br /><br />
             <div className="grid grid-cols-1 bg-origin-padding lg:grid-cols-5 gap-3 grid-flow-row-dense  ">
                 <div className="mb-4 md:col-span-2 lg:col-span-2 lg:row-span-3 ">
@@ -17,13 +17,8 @@ const AboutComponent = () => {
                         </p>
                     </div>
                 </div>
-                <div className="mb-4 md:col-span-1 lg:col-span-1 lg:row-span-2">
-                    <div className="h-full p-5 border border-white-600   bg-neutral-100 rounded-xl bg-opacity-88 backdrop-filter backdrop-blur-lg my-0.75">
-                    <br />
-                    <span className="font-consolas font-semibold text-3xl ">Rent & Sale</span><br />    
-                    </div>
-                </div>
-                <div className="mb-4 md:col-span-1 lg:col-span-2 lg:row-span-2">
+                
+                <div className="mb-4 md:col-span-2 lg:col-span-3 lg:row-span-2">
                     <div className="h-full p-5 border border-white-600  bg-neutral-100 rounded-xl bg-opacity-88 backdrop-filter backdrop-blur-lg">
                     <span className="font-consolas font-semibold text-3xl ">Prime Locations of Dubai are under Your Reach Now!</span><br />
                         
@@ -32,7 +27,7 @@ const AboutComponent = () => {
 
             </div>
             <br /><br /><br /><br /><br />
-        </div>
+        </section>
     );
 }
 
