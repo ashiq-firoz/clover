@@ -8,7 +8,7 @@ const AboutComponent = () => {
             <div className="grid grid-cols-1 bg-origin-padding lg:grid-cols-5 gap-3 grid-flow-row-dense  ">
                 <div className="mb-4 md:col-span-2 lg:col-span-2 lg:row-span-3 ">
                     <div className="h-full   bg-[#ffe9ec]` rounded-xl bg-opacity-90 backdrop-filter backdrop-blur-lg overflow-hidden">
-                        <span className="font-serif text-5xl text-white ring-gray-400 ">The Best Solution For Your Investment</span><br />
+                        <span className="font-serif text-5xl text-white ring-gray-400 ">Get to know us</span><br />
                         <p className="text-white border-solid font-mono">
                             Check out our latest listings
                             <br /><br />
