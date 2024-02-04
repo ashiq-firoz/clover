@@ -47,31 +47,31 @@ const NavBarComponent = () => {
         href="#"
         className="link-container"
       >
-        <span className="hover-text text-white font-consolas text-2xl">Home</span>
+        <span className="text-white font-consolas text-2xl hover:text-white hover:font-black">Home</span>
       </a>
       <a
         href="#"
         className="link-container"
       >
-        <span className="hover-text text-white font-consolas text-2xl">About</span>
+        <span className=" text-white font-consolas text-2xl hover:text-white hover:font-black">About</span>
       </a>
       <a
         href="#"
         className="link-container"
       >
-        <span className="hover-text text-white font-consolas  text-2xl">Services</span>
+        <span className=" text-white font-consolas  text-2xl hover:text-white hover:font-black">Services</span>
       </a>
       <a
         href="#"
         className="link-container"
       >
-        <span className="hover-text text-white font-consolas  text-2xl">Contacts</span>
+        <span className=" text-white font-consolas  text-2xl hover:text-white hover:font-black">Contacts</span>
       </a>
       <a
         href="#"
         className="link-container"
       >
-        <span className="hover-text text-white font-consolas  text-2xl">FAQs</span>
+        <span className=" text-white font-consolas  text-2xl hover:text-white hover:font-black">FAQs</span>
       </a>
     </div>
   </div>

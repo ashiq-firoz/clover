@@ -18,9 +18,10 @@ const AboutComponent = () => {
                     </div>
                 </div>
                 
-                <div className="mb-4 md:col-span-2 lg:col-span-3 lg:row-span-2">
+                <div className="mb-4 md:col-span-2 lg:col-span-3 lg:row-span-12">
                     <div className="h-full p-5 border border-white-600  bg-neutral-100 rounded-xl bg-opacity-88 backdrop-filter backdrop-blur-lg">
-                    <span className="font-consolas font-semibold text-3xl ">Prime Locations of Dubai are under Your Reach Now!</span><br />
+                    <span className="font-consolas font-semibold text-3xl ">We are a team who is passionate about social media and digital 
+                    marketing. We started this company to help businesses and individuals leverage the power of social media to achieve their marketing objectives.</span><br />
                         
                     </div>
                 </div>
