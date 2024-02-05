@@ -63,26 +63,6 @@ const BentoComponent = () => {
             />
           </div>
         </div>
-        <div className="mb-4 md:col-span-1 lg:col-span-2 lg:row-span-1">
-          <div className="h-40   bg-white rounded-xl bg-opacity-60 backdrop-filter backdrop-blur-lg overflow-hidden hover:transform hover:scale-105 transition-transform">
-            <img
-              src="/img/i4.jpg"
-              alt=""
-              className="w-full h-full object-cover"
-              onMouseEnter={handleHover}
-            />
-          </div>
-        </div>
-        <div className="mb-4 md:col-span-1 lg:col-span-2 lg:row-span-1">
-          <div className="h-40   bg-white rounded-xl bg-opacity-60 backdrop-filter backdrop-blur-lg overflow-hidden hover:transform hover:scale-105 transition-transform">
-            <img
-              src="/img/i3.jpg"
-              alt=""
-              className="w-full h-full object-cover"
-              onMouseEnter={handleHover}
-            />
-          </div>
-        </div>
       </div>
     </div>
   );
