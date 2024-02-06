@@ -9,7 +9,7 @@ const ContactComponent = () => {
         <div className="flex-1 lg:flex lg:items-center lg:-mx-6 ">
           <div className=" lg:w-1/2 lg:mx-6">
             <h1 className="text-2xl font-semibold capitalize lg:text-3xl">
-              Get a quote
+              Get in Touch
             </h1>
 
             <p className="max-w-xl mt-6">
@@ -66,39 +66,30 @@ const ContactComponent = () => {
 
           <div className="mt-8 lg:w-1/2 lg:mx-6 ">
             <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-white shadow-2xl rounded-xl dark:bg-neutral-100 lg:max-w-xl">
-              <h1 className="text-xl font-medium text-neutral-900 dark:text-neutral-900">
-                Contact form
+              <h1 className="text-xl font-medium text-neutral-900 dark:text-neutral-900 capitalize">
+                Contact us
               </h1>
 
               <form className="mt-4">
                 <div className="flex-1">
-                  <label className="block mb-2 text-sm text-gray-600 dark:text-neutral-900">
-                    Full Name
-                  </label>
                   <input
                     type="text"
-                    placeholder="John Doe"
-                    className="focus:border-transparent block w-full px-5 py-3 mt-2 text-gray-700 bg-white border-b border-gray-200  dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:outline-none focus:ring-opacity-40 dark:focus:border-blue-300  "
+                    placeholder="Full Name"
+                    className="focus:border-transparent rounded-lg block w-full px-5 py-3 mt-2 text-gray-700 bg-white border-b border-gray-200  dark:bg-gray-200 dark:text-gray-950 dark:border-gray-600 focus:border-blue-400 focus:outline-none focus:ring-opacity-40 dark:focus:border-blue-300  "
                   />
                 </div>
 
                 <div className="flex-1 mt-6">
-                  <label className="block mb-2 text-sm text-gray-600 dark:text-neutral-900">
-                    Email address
-                  </label>
                   <input
                     type="email"
-                    placeholder="johndoe@example.com"
-                    className="focus:border-transparent block w-full px-5 py-3 mt-2 text-gray-700 bg-white border-b border-gray-200  dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:outline-none focus:ring-opacity-40 dark:focus:border-blue-300  "
+                    placeholder="Email"
+                    className="focus:border-transparent rounded-lg block w-full px-5 py-3 mt-2 text-gray-700 bg-white border-b border-gray-200  dark:bg-gray-200 dark:text-gray-950 dark:border-gray-600 focus:border-blue-400 focus:outline-none focus:ring-opacity-40 dark:focus:border-blue-300  "
                   />
                 </div>
 
                 <div className="w-full mt-6">
-                  <label className="block mb-2 text-sm text-gray-600 dark:text-neutral-900">
-                    Message
-                  </label>
                   <textarea
-                    className="focus:border-transparent block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border-b border-gray-200  md:h-48 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:outline-none focus:ring-opacity-40 dark:focus:border-blue-300 "
+                    className="focus:border-transparent rounded-lg block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border-b border-gray-200  md:h-48 dark:bg-gray-200 dark:text-gray-950  dark:border-gray-600 focus:border-blue-400 focus:outline-none focus:ring-opacity-40 dark:focus:border-blue-300 "
                     placeholder="Message"
                   ></textarea>
                 </div>
