@@ -4,7 +4,7 @@ const ContactComponent = () => {
   const ref = useRef(null);
 
   return (
-    <section className="min-h-screen  mx-auto p-10 bg-emerald-400">
+    <section className="min-h-screen  mx-auto p-10 bg-slate-300">
       <div className="container flex flex-col min-h-screen px-6 py-12 mx-auto ">
         <div className="flex-1 lg:flex lg:items-center lg:-mx-6 ">
           <div className=" lg:w-1/2 lg:mx-6">

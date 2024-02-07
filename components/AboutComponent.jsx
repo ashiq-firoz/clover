@@ -2,12 +2,12 @@ import { FiSend } from "react-icons/fi";
 
 const AboutComponent = () => {
   return (
-    <section className="container py-8 px-8  ">
+    <section className="container py-8 px-8  bg-neutral-200">
       <br />
       <br />
       <div className="grid grid-cols-1 bg-origin-padding lg:grid-cols-5 gap-3 grid-flow-row-dense  ">
         <div className="mb-4 md:col-span-2 lg:col-span-2 lg:row-span-3 ">
-          <div className="h-full    bg-neutral-200` rounded-xl bg-opacity-90 backdrop-filter backdrop-blur-lg overflow-hidden">
+          <div className="h-full    bg-neutral-100 rounded-xl bg-opacity-90 backdrop-filter backdrop-blur-lg overflow-hidden">
             <span className="font-serif text-5xl text-black ring-gray-400 ">
               Get to know us
             </span>

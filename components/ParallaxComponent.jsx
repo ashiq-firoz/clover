@@ -34,7 +34,7 @@ const ParallaxComponent = () => {
       <motion.div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: `url(img/bg.jpg)`,
+          backgroundImage: `url(img/bg2.jpg)`,
           backgroundPosition: "bottom",
           backgroundSize: "cover",
           y: backgroundY,
