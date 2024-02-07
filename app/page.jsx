@@ -16,6 +16,8 @@ export default function Home() {
       </section>
       <BentoComponent />
       <ContactComponent />
+
+      
     </>
   );
 }

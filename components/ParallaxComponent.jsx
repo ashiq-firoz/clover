@@ -3,6 +3,13 @@ import styles from "../app/globals.css";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 import React, { useRef } from "react";
+import { Monoton } from 'next/font/google'
+
+export const monoton = Monoton({
+  subsets: ['latin'],
+  display: 'swap',
+  weight : '400'
+});
 
 const ParallaxComponent = () => {
   const ref = useRef(null);
@@ -23,7 +30,7 @@ const ParallaxComponent = () => {
         className="font-bold text-white text-7xl md:text-9xl relative z-10"
       >
         <div className="flex justify-center text-center flex-wrap -mt-14">
-          <span className="font-monoton bg-white font-monoton inline-block text-transparent bg-clip-text">
+        <span className={`${monoton.className} bg-white text-9xl  inline-block text-transparent bg-clip-text`}>
             Clover
           </span>
           <br className="hidden md:inline-block" />
