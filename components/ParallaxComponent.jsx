@@ -30,8 +30,11 @@ const ParallaxComponent = () => {
         className="font-bold text-white text-7xl md:text-9xl relative z-10"
       >
         <div className="flex justify-center text-center flex-wrap -mt-14">
-        <span className={`${monoton.className} bg-white text-9xl  inline-block text-transparent bg-clip-text`}>
-            Clover
+        <span className={`${monoton.className} bg-black text-9xl  inline-block text-transparent bg-clip-text`}>
+            Clo
+          </span>
+          <span className={`${monoton.className} bg-white text-9xl  inline-block text-transparent bg-clip-text`}>
+            ver
           </span>
           <br className="hidden md:inline-block" />
           <span className="font-sans inline-block md:my-2 "></span>
@@ -41,7 +44,7 @@ const ParallaxComponent = () => {
       <motion.div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: `url(img/bg2.jpg)`,
+          backgroundImage: `url(img/Presentation1.png)`,
           backgroundPosition: "bottom",
           backgroundSize: "cover",
           y: backgroundY,

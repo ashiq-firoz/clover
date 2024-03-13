@@ -13,7 +13,7 @@ const NavBarComponent = () => {
   useEffect(() => {
     const handleScroll = () => {
       const offset = window.scrollY;
-      setScrolling(offset > 50); // Adjust the offset value as needed
+      setScrolling(offset > 50);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -29,11 +29,11 @@ const NavBarComponent = () => {
         scrolling ? "-translate-y-16" : ""
       }`}
     >
-      <div className="max-w-5xl mx-auto px-4 ">
-        <div className="flex items-center justify-between h-16">
+      <div className=" w-full mx-auto px-4 ">
+        <div className="flex items-center w-full justify-between h-16">
           <span className="text-2xl text-gray-900 font-semibold sm:flex hidden">
             <Image
-              src="/img/logo2.png"
+              src="/img/CloverlogoBlack.png"
               alt="CLOVER"
               width={250}
               height={250}
