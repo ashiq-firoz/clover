@@ -2,50 +2,73 @@ import React from "react";
 import { StickyScroll } from "@components/ui/sticky-scroll-reveal";
 import Image from "next/image";
 
+import { Monoton } from 'next/font/google'
+
+
+export const monoton = Monoton({
+  subsets: ['latin'],
+  display: 'swap',
+  weight : '400'
+});
+
 const content = [
   {
-    title: "Collaborative Editing",
+    title: "Social Media Management",
     description:
-      "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity.",
+      "Creating and scheduling content, engaging with followers, monitoring analytics, and implementing social media advertising campaigns",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-        Collaborative Editing
+        Social Media Management
       </div>
     ),
   },
   {
-    title: "Real time changes",
+    title: "Content Creation",
     description:
-      "See changes as they happen. With our platform, you can track every modification in real time. No more confusion about the latest version of your project. Say goodbye to the chaos of version control and embrace the simplicity of real-time updates.",
+      "We will will work closely with you to capture your vision and bring your ideas to life.",
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
-        <Image
-          src="/linear.webp"
-          width={300}
-          height={300}
-          className="h-full w-full object-cover"
-          alt="linear board demo"
-        />
+        Content Creation
       </div>
     ),
   },
   {
-    title: "Version control",
+    title: "Community Management",
     description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+      "Building a community around your brand which will foster a deeper connection with your customers, increase customer loyalty, and ultimately drive growth for your business.",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
-        Version control
+        Community Management
       </div>
     ),
   },
   {
-    title: "Running out of content",
+    title: "Hire our Videographer!",
     description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+      "Rent our skilled videographer at Clover Creative Agency for stunning visuals that bring your vision to life. From promotional videos to event coverage, our expert captures high-quality content that engages your audience. With flexible options and exceptional service, elevate your brand with us",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-        Running out of content
+        Hire our Videographer!
+      </div>
+    ),
+  },
+  {
+    title: "Web Designing",
+    description:
+      "Whether you need a simple informational website or a complex e-commerce platform, we have the expertise to deliver a customised web design solution that enhances your online presence",
+    content: (
+      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
+        Web Designing
+      </div>
+    ),
+  },
+  {
+    title: "",
+    description:
+      "",
+    content: (
+      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
+        Web Designing
       </div>
     ),
   },
@@ -53,8 +76,18 @@ const content = [
 
 export default function StickyScrollRevealDemo() {
   return (
-    <div className="p-25">
+    <>
+    
+    <center>
+      <div className="h-[20vh] bg-slate-900">
+      <br /><br /><br /> <br />
+        {/* <span  className={`${monoton.className} text-4xl text-white py-10`}>
+                    OUR SERVICES
+        </span> */}
+      </div>
+    </center>
       <StickyScroll content={content} />
-    </div>
+
+    </>
   );
 }

@@ -1,17 +1,13 @@
-import React, { useRef } from "react";
-import { Monoton } from 'next/font/google'
-import Modal from "./Modal";
+"use client";
 
-export const monoton = Monoton({
-  subsets: ['latin'],
-  display: 'swap',
-  weight: '400'
-});
-const ContactComponent = () => {
-  const ref = useRef(null);
+import { useRef } from "react";
 
-  return (
-    <section className="bg-gray-900">
+export default function contact (){
+
+    const ref = useRef();
+
+    return (
+        <section className="bg-gray-900">
             <br />
             <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-white">Contact Us</h2>
@@ -33,7 +29,5 @@ const ContactComponent = () => {
                 </form>
             </div>
         </section>
-  );
-};
-
-export default ContactComponent;
+    );
+}

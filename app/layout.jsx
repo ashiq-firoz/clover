@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${inter.className} bg-neutral-200`}>
         <div>
-          <NavBarComponent />
+          <NavBarComponent className="top-2"/>
           {children}
         </div>
         <FooterComponent />
