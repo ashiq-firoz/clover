@@ -3,42 +3,21 @@ import { FiSend } from "react-icons/fi";
 const AboutComponent = () => {
   return (
     <section className="container py-8 px-8  bg-neutral-200">
-      <br />
-      <br />
-      <div className="grid grid-cols-1 bg-origin-padding lg:grid-cols-5 gap-3 grid-flow-row-dense  ">
-        <div className="mb-4 md:col-span-2 lg:col-span-2 lg:row-span-3 ">
-          <div className="h-full    bg-neutral-100 rounded-xl bg-opacity-90 backdrop-filter backdrop-blur-lg overflow-hidden">
-            <span className="font-serif text-5xl text-black ring-gray-400 ">
-              Get to know us
-            </span>
-            <br />
-            <p className="text-black border-solid font-mono">
-              Check out our latest listings
-              <br />
-              <br />
-              <NeumorphismButton />
-              <br />
-            </p>
-          </div>
-        </div>
+      <div className="grid grid-cols-4 gap-4">
+        <div className="col-span-2">
+          <img className="rounded-md" src="/img/about.webp" alt="" style={{ filter: "blur(0px)" }} />
 
-        <div className="mb-4 md:col-span-2 lg:col-span-3 lg:row-span-12">
-          <div className="h-full p-5 border border-white-600  bg-neutral-100 rounded-xl bg-opacity-88 backdrop-filter backdrop-blur-lg">
-            <span className="font-consolas font-semibold text-3xl ">
-              We are a team who is passionate about social media and digital
-              marketing. We started this company to help businesses and
-              individuals leverage the power of social media to achieve their
-              marketing objectives.
-            </span>
-            <br />
-          </div>
+        </div>
+        <div className="col-span-2">
+          <p className=" lg:text-3xl">
+            We're on a mission to transform your online presence into an
+            engaging, memorable, and relatable experience. Our focus is to
+            bring creativity and strategy together in a way that helps your brand
+            shine. We believe in a future where your social media is a hub of
+            authentic connections, unique content, and continuous growth
+          </p>
         </div>
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
     </section>
   );
 };

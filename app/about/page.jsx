@@ -26,7 +26,7 @@ export const monoton = Monoton({
 
 function BentoGridDemo() {
     return (
-        <section className="p-20 bg-slate-900">
+        <section className="p-20 bg-[#2C2C2C]">
             <br />
             <center>
                 <span className={`${monoton.className} text-4xl text-white`}>
@@ -79,7 +79,7 @@ const items = [
     {
         title: "Siyona Shajil",
         position: "Social Media Strategist",
-        description: "Siyona is responsible for developing and executing innovative strategies that help her company stay ahead of the competition.She provides valuable insights to her team, clients and partners.",
+        description: "Siyona is responsible for developing and executing innovative strategies that help her company stay ahead of the competition.She provides valuable insights to her clients.",
         header: <Skeleton child={<img src="/img/Siyona.webp" className="rounded" />} />,
         icon1: <a href="https://instagram.com/_itz_siyaaaa_?igshid=YmMyMTA2M2Y="><FaInstagram/></a>,
         icon2:<a href="https://www.linkedin.com/in/siyona-shajil-b9946b20b/"><FaLinkedinIn/></a>,

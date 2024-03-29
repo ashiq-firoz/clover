@@ -3,7 +3,7 @@ import styles from "../app/globals.css";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 import React, { useRef } from "react";
-import { Monoton } from 'next/font/google'
+import { Monoton } from "next/font/google";
 
 export const monoton = Monoton({
   subsets: ['latin'],
@@ -23,28 +23,33 @@ const ParallaxComponent = () => {
   return (
     <div
       ref={ref}
-      className="w-full h-screen overflow-hidden relative grid place-items-center"
+      className="w-full h-screen overflow-hidden relative grid place-items-center bg-black"
     >
       <motion.h1
         style={{ y: textY }}
         className="font-bold text-white text-7xl md:text-9xl relative z-10"
       >
         <div className="flex justify-center text-center flex-wrap -mt-14">
-        <span className={`${monoton.className} bg-black text-9xl  inline-block text-transparent bg-clip-text`}>
-            Clo
-          </span>
-          <span className={`${monoton.className} bg-white text-9xl  inline-block text-transparent bg-clip-text`}>
-            ver
+       
+          <span className={`${monoton.className} bg-white text-6xl  lg:text-[30vh]  inline-block text-transparent bg-clip-text`}>
+            Clover
           </span>
           <br className="hidden md:inline-block" />
+          
+          
           <span className="font-sans inline-block md:my-2 "></span>
         </div>
+        <center>
+          <span className={` bg-white text-3xl  lg:text-3xl  inline-block text-transparent bg-clip-text`}>
+            social media management
+          </span>
+          </center>
       </motion.h1>
 
       <motion.div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: `url(img/Presentation1.png)`,
+          
           backgroundPosition: "bottom",
           backgroundSize: "cover",
           y: backgroundY,

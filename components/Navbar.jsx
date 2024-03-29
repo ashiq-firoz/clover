@@ -13,6 +13,12 @@ export default function NavBarComponent({ className }) {
       className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}
     >
       <Menu setActive={setActive}>
+      <HoveredLink href="/">
+       <span className="text-white font-semibold">
+
+       CLOVER CREATIVE
+       </span>
+      </HoveredLink>
       <HoveredLink href="/">Home</HoveredLink>
       <HoveredLink href="/about">About</HoveredLink>
       <HoveredLink href="/service">Services</HoveredLink>

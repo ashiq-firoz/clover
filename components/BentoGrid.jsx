@@ -20,17 +20,17 @@ const BentoComponent = () => {
   };
 
   return (
+    <>
+    
     <div className="container bg-neutral-200 py-8 mx-auto px-8 ">
       <div className="mb-4 md:col-span-2 lg:col-span-2 lg:row-span-1">
-        <div className="h-full p-5  bg-white rounded-xl bg-opacity-60 backdrop-filter backdrop-blur-lg">
-          <h2 className="font-consolas font-semibold text-3xl">
-            Our team comprises individuals with diverse backgrounds and skills,
+       <p>
+       Our team comprises individuals with diverse backgrounds and skills,
             including marketing, graphic design, content creation, and
             analytics. We believe that our collective knowledge and expertise
             allow us to provide our clients with a comprehensive and customized
             approach to social media management.
-          </h2>
-        </div>
+       </p>
       </div>
       <div className="grid grid-cols-6  lg:grid-cols-3 gap-5 grid-flow-row-dense">
         <div className="mb-4 md:col-span-2 lg:col-span-1 lg:row-span-2 relative overflow-hidden hover:transform hover:scale-105 transition-transform">
@@ -65,6 +65,44 @@ const BentoComponent = () => {
         </div>
       </div>
     </div>
+
+    <div className="p-8 grid grid-cols-4 bg-black">
+      <div className="col-span-1">
+       <span className="text-white text-6xl font-extrabold">Our Team Worked With</span>
+      </div>
+      <div className="col-span-3">
+        <div className="grid grid-cols-6 gap-2">
+          <div className="col-span-2">
+            <img src="/img/clients/talea.png" className="rounded-md" alt="" />
+          </div>
+          <div className="col-span-2">
+          <img src="/img/clients/wicked.png" className="rounded-md" alt="" /> 
+          </div>
+          <div className="col-span-2">
+          <img src="/img/clients/horse.png" className="rounded-md" alt="" />
+          </div>
+          
+          <div className="col-span-2">
+            <img src="/img/clients/artduabi.png" className="rounded-md" alt="" />
+          </div>
+          <div className="col-span-2">
+          <img src="/img/clients/h&h.png" className="rounded-md" alt="" /> 
+          </div>
+          <div className="col-span-2">
+          <img src="/img/clients/motrino.png" className="rounded-md" alt="" />
+          </div>
+
+          <div className="col-span-2">
+            <img src="/img/clients/3horses.png" className="rounded-md" alt="" />
+          </div>
+          <div className="col-span-2">
+          <img src="/img/clients/vic.png" className="rounded-md" alt="" /> 
+          </div>
+         
+        </div>
+      </div>
+    </div>
+    </>
   );
 };
 
