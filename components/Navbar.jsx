@@ -14,7 +14,7 @@ export default function NavBarComponent({ className }) {
     >
       <Menu setActive={setActive}>
       <HoveredLink href="/">
-       <span className="text-white font-semibold">
+       <span className="text-[#2C2C2C] font-semibold">
 
        CLOVER CREATIVE
        </span>

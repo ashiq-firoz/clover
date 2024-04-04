@@ -3,9 +3,9 @@ import styles from "../app/globals.css";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 import React, { useRef } from "react";
-import { Monoton } from "next/font/google";
+import { Antonio } from "next/font/google";
 
-export const monoton = Monoton({
+export const antonio = Antonio({
   subsets: ['latin'],
   display: 'swap',
   weight : '400'
@@ -31,7 +31,7 @@ const ParallaxComponent = () => {
       >
         <div className="flex justify-center text-center flex-wrap -mt-14">
        
-          <span className={`${monoton.className} bg-white text-6xl  lg:text-[30vh]  inline-block text-transparent bg-clip-text`}>
+          <span className={`${antonio.className} text-[#2C2C2C] font-[126]  text-6xl  lg:text-[30vh]  inline-block text-transparent bg-clip-text`}>
             Clover
           </span>
           <br className="hidden md:inline-block" />
@@ -40,7 +40,7 @@ const ParallaxComponent = () => {
           <span className="font-sans inline-block md:my-2 "></span>
         </div>
         <center>
-          <span className={` bg-white text-3xl  lg:text-3xl  inline-block text-transparent bg-clip-text`}>
+          <span className={` bg-black text-3xl  lg:text-3xl  inline-block text-transparent bg-clip-text`}>
             social media management
           </span>
           </center>
@@ -49,7 +49,7 @@ const ParallaxComponent = () => {
       <motion.div
         className="absolute inset-0 z-0"
         style={{
-          
+          backgroundImage : "url('/img/hero.jpg')",
           backgroundPosition: "bottom",
           backgroundSize: "cover",
           y: backgroundY,
