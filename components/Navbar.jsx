@@ -10,11 +10,11 @@ export default function NavBarComponent({ className }) {
   return (
     <>
     <div
-      className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}
+      className={cn("fixed top-10 inset-x-0 max-w-2xl  mx-auto z-50 ", className)}
     >
       <Menu setActive={setActive}>
       <HoveredLink href="/">
-        <div className="grid grid-cols-4">
+        <div className="flex items-center">
           <img src="/img/logo.png" alt="" className="col-span-1 h-15 w-10" />
         <span className="text-[#2C2C2C] font-semibold col-span-3">
        CLOVER CREATIVE
@@ -22,6 +22,8 @@ export default function NavBarComponent({ className }) {
         </div>
      
       </HoveredLink>
+
+
       <HoveredLink href="/">Home</HoveredLink>
       <HoveredLink href="/about">About</HoveredLink>
       <HoveredLink href="/service">Services</HoveredLink>

@@ -13,52 +13,52 @@ export const monoton = Monoton({
 
 const content = [
   {
-    title: "Social Media Management",
+    title: "STRATEGY DEVELOPMENT",
     description:
-      "Creating and scheduling content, engaging with followers, monitoring analytics, and implementing social media advertising campaigns",
+      "Our strategies encompass content calendars, audience engagement tactics, platform selection, and KPIs to measure success. By continuously analyzing data and refining our approach, we ensure your brand remains agile and responsive in the dynamic world of social media.",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-        Social Media Management
+        STRATEGY DEVELOPMENT
       </div>
     ),
   },
   {
-    title: "Content Creation",
+    title: "CONTENT CREATION",
     description:
-      "We will will work closely with you to capture your vision and bring your ideas to life.",
+      "We craft tailored and engaging content that captures your brand's essence and resonates with your target audience. From captivating articles to stunning visuals, we bring your brand story to life across platforms. With planning and attention to detail, we create exceptional content that helps your brand stand out and drive results in the digital landscape",
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
-        Content Creation
+        CONTENT CREATION
       </div>
     ),
   },
   {
-    title: "Community Management",
+    title: "COMMUNITY MANAGEMENT",
     description:
-      "Building a community around your brand which will foster a deeper connection with your customers, increase customer loyalty, and ultimately drive growth for your business.",
+      "We actively engage with your audience, responding to comments, messages, and feedback promptly. We foster a sense of belonging and encourage meaningful interactions. By humanizing your brand and creating a sense of community, we strengthen customer loyalty and drive organic growth, ensuring your brand's presence thrives in the digital space.",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
-        Community Management
+        COMMUNITY MANAGEMENT
       </div>
     ),
   },
   {
-    title: "Hire our Videographer!",
+    title: "PHOTOGRAPHY",
     description:
-      "Rent our skilled videographer at Clover Creative Agency for stunning visuals that bring your vision to life. From promotional videos to event coverage, our expert captures high-quality content that engages your audience. With flexible options and exceptional service, elevate your brand with us",
+      "Whether it's product photography, lifestyle shoots, event coverage, or promotional videos, we have the expertise to bring your vision to life. Our team of creative professionals ensures that every frame aligns with your brand identity and marketing goals. Let us turn your ideas into captivating visual content that leaves a lasting impression.",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-        Hire our Videographer!
+        PHOTOGRAPHY
       </div>
     ),
   },
   {
-    title: "Web Designing",
+    title: "WEB TECH",
     description:
-      "Whether you need a simple informational website or a complex e-commerce platform, we have the expertise to deliver a customised web design solution that enhances your online presence",
+      "Our web designers collaborate with you to understand and, ensure that every aspect of the design aligns with your brand values and objectives. We have the expertise to deliver a customised web design solution that enhances your online presence and drives meaningful results.",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-        Web Designing
+        WEB TECH
       </div>
     ),
   },

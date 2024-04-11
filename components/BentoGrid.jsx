@@ -1,6 +1,13 @@
 import React, { useState } from "react";
 import styles from "../app/globals.css";
 import { antonio } from "./ParallaxComponent";
+import { Montserrat } from 'next/font/google'
+
+export const montserrat = Montserrat({
+    subsets: ['latin'],
+    display: 'swap',
+    weight: '400'
+});
 
 const BentoComponent = () => {
   const [count, setCount] = useState(0);
@@ -70,12 +77,14 @@ const BentoComponent = () => {
           </span>
         </div>
         <div className="col-span-4 px-8 lg:px-0">
-          <p className={`${antonio.className} text-xl font-bold`}>
+          <p className={`${montserrat.className} text-2xl font-bold`}>
+            <b>
             We're on a mission to transform your online presence into an
             engaging, memorable, and relatable experience. Our focus is to bring
             creativity and strategy together in a way that helps your brand shine.
             We believe in a future where your social media is a hub of authentic
             connections, unique content, and continuous growth
+            </b>
 
           </p>
         </div>
@@ -85,11 +94,15 @@ const BentoComponent = () => {
 
       <div className="p-8 grid grid-cols-4 bg-[#D2E7D0]">
         <div className="col-span-1">
-          <span className="text-black text-[3vh] lg:text-[5vh] font-extrabold">OUR TEAM HAS WORKED WITH
+          <br></br>
+          <br></br>
+          <span className={`${antonio.className} text-[8vh]`}
+          
+          >OUR TEAM HAS WORKED WITH
           </span>
         </div>
         <div className="col-span-3">
-          <div className="grid grid-cols-6 gap-2">
+          <div className="grid grid-cols-10 gap-2">
             <div className="col-span-2">
               <img src="/img/clients/talea.png" className="rounded-md" alt="" />
             </div>
@@ -115,6 +128,9 @@ const BentoComponent = () => {
             </div>
             <div className="col-span-2">
               <img src="/img/clients/vic.png" className="rounded-md" alt="" />
+            </div>
+            <div className="col-span-2">
+              <img src="/img/clients/abela.png" className="rounded-md" alt="" />
             </div>
 
           </div>

@@ -31,10 +31,10 @@ const ParallaxComponent = () => {
       >
         <div className="flex flex-col items-center">
           <span className={`${antonio.className} tracking-[1.25rem] text-[#2C2C2C] text-[20vh] lg:text-[30vh] bg-clip-text`}>
-            <b>Clover</b>
+            <b>CLOVER</b>
           </span>
-          <span className={`bg-black text-2xl lg:text-3xl inline-block text-transparent bg-clip-text mt-4`}>
-            social media management
+          <span className={`bg-black text-[60vh] lg:text-[5.5vh] py-5 inline-block text-transparent bg-clip-text mt-4`}>
+            SOCIAL MEDIA MANAGEMENT
           </span>
         </div>
 
