@@ -14,10 +14,10 @@ import {
     IconTableColumn,
 } from "@tabler/icons-react";
 
-import { Monoton } from 'next/font/google'
-import { a } from "react-spring";
+import { Antonio } from 'next/font/google'
 
-export const monoton = Monoton({
+
+export const antonio = Antonio({
   subsets: ['latin'],
   display: 'swap',
   weight : '400'
@@ -29,7 +29,7 @@ function BentoGridDemo() {
         <section className="p-20 bg-[#2C2C2C]">
             <br />
             <center>
-                <span className={`${monoton.className} text-4xl text-white`}>
+                <span className={`${antonio.className} text-4xl text-white`}>
                     ABOUT US
                 </span>
                 <br />
@@ -54,7 +54,7 @@ function BentoGridDemo() {
 }
 
 const Skeleton = ({ child }) => (
-    <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100">
+    <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl ">
         {child}
     </div>
 );
@@ -86,16 +86,18 @@ const items = [
     },
     {
         
-        header: <Skeleton child={<img src="/img/about.webp" className="rounded" />}></Skeleton>,
+        header: <div className={`${antonio.className} text-[#2C2C2C]  flex flex-1 w-full h-full min-h-[6rem] rounded-xl text-[15vh]`}>
+        <b>MEET US</b>
+    </div>,
 
     },
     {
         title: "Anandan Anil",
         position: "Videographer",
         description: "With his passion for storytelling and his eye for detail, Anandan is responsible for creating compelling and engaging video content that resonates with his company's target audience.",
-        header: <Skeleton />,
-        icon1: <a href="https://www.instagram.com/christinaa.j_/"><FaInstagram/></a>,
-        icon2:<a href="https://www.linkedin.com/company/wix-com"><FaLinkedinIn/></a>,
+        header: <Skeleton child={<img src="/img/anandan.jpg" className="rounded" />} />,
+        icon1: <a href="https://www.instagram.com/anandannaiir?igsh=ZGZra3Fpa2VyMjR0"><FaInstagram/></a>,
+        icon2:<a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://ae.linkedin.com/company/clover-creative-agency&ved=2ahUKEwjtgO665a-FAxWuQPEDHYD4BFUQFnoECBQQAQ&usg=AOvVaw3CqRX3NhI52wOyoPWuSAwJ"><FaLinkedinIn/></a>,
     },
     {
         header: <p>As a social media curating company, our primary objective is to help businesses and individuals manage their social media presence more effectively. Our team will work closely with our clients to create customized social media strategies that are tailored to their specific needs and goals.</p> ,
@@ -104,7 +106,6 @@ const items = [
     {
         title: "Create Together With Us",
         description: "Embark on exciting journeys and thrilling discoveries.",
-        header: <Skeleton />,
         icon1: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
     },
 ];
