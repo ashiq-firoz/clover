@@ -12,9 +12,7 @@ export default function Home() {
   return (
     <>
       <ParallaxComponent />
-      <section className=" bg-neutral-200">
-        <AboutComponent />
-      </section>
+      
       <BentoComponent />
       <ContactComponent />
 

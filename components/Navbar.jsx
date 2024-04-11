@@ -14,16 +14,19 @@ export default function NavBarComponent({ className }) {
     >
       <Menu setActive={setActive}>
       <HoveredLink href="/">
-       <span className="text-[#2C2C2C] font-semibold">
-
+        <div className="grid grid-cols-4">
+          <img src="/img/logo.png" alt="" className="col-span-1 h-15 w-10" />
+        <span className="text-[#2C2C2C] font-semibold col-span-3">
        CLOVER CREATIVE
        </span>
+        </div>
+     
       </HoveredLink>
       <HoveredLink href="/">Home</HoveredLink>
       <HoveredLink href="/about">About</HoveredLink>
       <HoveredLink href="/service">Services</HoveredLink>
       <HoveredLink href="/contact">Contact US</HoveredLink>
-      <HoveredLink href="#">FAQ</HoveredLink>
+      <HoveredLink href="/faq">FAQ</HoveredLink>
       </Menu>
     </div>
     </>
