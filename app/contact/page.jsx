@@ -49,7 +49,7 @@ const ContactComponent = () => {
     };
 
     return (
-        <section className="bg-[url('/img/hero2.jpg')] lg:bg-[url('/img/hero.jpg')]" style={{
+        <section className="bg-[url('/img/hero.jpg')]" style={{
             
             backgroundPosition: "bottom",
             backgroundSize: "cover",

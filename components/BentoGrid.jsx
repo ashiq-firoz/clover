@@ -101,7 +101,7 @@ const BentoComponent = () => {
           >OUR TEAM HAS WORKED WITH
           </span>
         </div>
-        <div className="col-span-3">
+        <div className="col-span-3 px-4">
           <div className="grid grid-cols-4 lg:grid-cols-10 gap-2">
             <div className="col-span-2">
               <img src="/img/clients/talea.png" className="rounded-md" alt="" />
