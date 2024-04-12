@@ -59,7 +59,7 @@ const ContactComponent = () => {
                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-black">BOOK NOW! </h2>
                 <p className="mb-8 lg:mb-16 font-light text-center text-gray-400 sm:text-xl">Connect Anytime, Anywhere - Work with Us
                     Wherever You are..</p>
-                <form onSubmit={handleSubmit} method="POST" action="https://script.google.com/macros/s/AKfycbyYI9nyp0HvkBJpM6DhwL_EjlyxYV6B200FqONHtTiA8tFtI5gfrLq7zQtNGWUoPgKj/exec" className="space-y-8">
+                <form onSubmit={handleSubmit} method="POST" action="https://script.google.com/macros/s/AKfycbwD_Y3rXsMNHBqjgwxHCxz2ayMUOowOpcYRgnGGlGL2m7BRyDUoTJ9YtOgAnuOAAL_q/exec" className="space-y-8">
                     <div>
                         <label className="block mb-2 text-xl font-bold text-black">Name</label>
                         <input type="text" id="name" name="name" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Name" required />
