@@ -44,9 +44,9 @@ const ParallaxComponent = () => {
       </motion.h1>
 
       <motion.div
-        className="absolute inset-0 z-0"
+        className="absolute inset-0 z-0 bg-[url('/img/hero2.jpg')] lg:bg-[url('/img/hero.jpg')]"
         style={{
-          backgroundImage: "url('/img/hero.jpg')",
+         
           backgroundPosition: "bottom",
           backgroundSize: "cover",
           backgroundAttachment: "fixed", // Add this line for the parallax effect
