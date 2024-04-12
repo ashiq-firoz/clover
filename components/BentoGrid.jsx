@@ -78,7 +78,7 @@ const BentoComponent = () => {
           </span>
         </div>
         <div className="col-span-4 px-8 lg:px-0">
-          <p className={`${montserrat.className} text-[1.5vh] lg:text-2xl font-bold`}>
+          <p className={`${montserrat.className} text-[1.9vh] lg:text-2xl font-bold`}>
             <b>
             We're on a mission to transform your online presence into an
             engaging, memorable, and relatable experience. Our focus is to bring
@@ -97,12 +97,12 @@ const BentoComponent = () => {
         <div className="col-span-1">
           <br></br>
           <br></br>
-          <span className={`${antonio.className} text-[3vh] lg:text-[8vh] `}
+          <span className={`${antonio.className} text-[5vh] lg:text-[8vh] `}
           >OUR TEAM HAS WORKED WITH
           </span>
         </div>
         <div className="col-span-3">
-          <div className="grid grid-cols-5 lg:grid-cols-10 gap-2">
+          <div className="grid grid-cols-4 lg:grid-cols-10 gap-2">
             <div className="col-span-2">
               <img src="/img/clients/talea.png" className="rounded-md" alt="" />
             </div>

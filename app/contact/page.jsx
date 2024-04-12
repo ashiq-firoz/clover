@@ -49,15 +49,15 @@ const ContactComponent = () => {
     };
 
     return (
-        <section style={{
-            backgroundImage: "url('/img/hero.jpg')",
+        <section className="bg-[url('/img/hero2.jpg')] lg:bg-[url('/img/hero.jpg')]" style={{
+            
             backgroundPosition: "bottom",
             backgroundSize: "cover",
         }}>
             <br /><br />
             <div className="py-16 lg:py-18 px-4 mx-auto max-w-screen-md">
                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-black">BOOK NOW! </h2>
-                <p className="mb-8 lg:mb-16 font-light text-center text-gray-400 sm:text-xl">Connect Anytime, Anywhere - Work with Us
+                <p className="mb-8 lg:mb-16 font-light text-center text-black sm:text-xl">Connect Anytime, Anywhere - Work with Us
                     Wherever You are..</p>
                 <form onSubmit={handleSubmit} method="POST" action="https://script.google.com/macros/s/AKfycbwD_Y3rXsMNHBqjgwxHCxz2ayMUOowOpcYRgnGGlGL2m7BRyDUoTJ9YtOgAnuOAAL_q/exec" className="space-y-8">
                     <div>

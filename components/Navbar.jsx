@@ -25,9 +25,9 @@ export default function NavBarComponent({ className }) {
 
 
       {/* <HoveredLink href="/">Home</HoveredLink> */}
-      <HoveredLink href="/about">About</HoveredLink>
+      <HoveredLink href="/about">About Us</HoveredLink>
       <HoveredLink href="/service">Services</HoveredLink>
-      <HoveredLink href="/contact">Contact </HoveredLink>
+      <HoveredLink href="/contact">Book </HoveredLink>
       <HoveredLink href="/faq">FAQ</HoveredLink>
       </Menu>
     </div>
