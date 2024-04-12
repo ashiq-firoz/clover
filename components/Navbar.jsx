@@ -16,7 +16,7 @@ export default function NavBarComponent({ className }) {
       <HoveredLink href="/">
         <div className="flex items-center">
           <img src="/img/logo.png" alt="" className="col-span-1 h-15 w-10" />
-        <span className="text-[#2C2C2C] font-semibold col-span-3">
+        <span className="text-[#2C2C2C] font-semibold col-span-3 hidden sm:block">
        CLOVER CREATIVE
        </span>
         </div>
@@ -24,10 +24,10 @@ export default function NavBarComponent({ className }) {
       </HoveredLink>
 
 
-      <HoveredLink href="/">Home</HoveredLink>
+      {/* <HoveredLink href="/">Home</HoveredLink> */}
       <HoveredLink href="/about">About</HoveredLink>
       <HoveredLink href="/service">Services</HoveredLink>
-      <HoveredLink href="/contact">Contact US</HoveredLink>
+      <HoveredLink href="/contact">Contact </HoveredLink>
       <HoveredLink href="/faq">FAQ</HoveredLink>
       </Menu>
     </div>

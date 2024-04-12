@@ -30,10 +30,10 @@ const ParallaxComponent = () => {
         className="font-bold text-white text-7xl md:text-9xl relative z-10"
       >
         <div className="flex flex-col items-center">
-          <span className={`${antonio.className} tracking-[1.25rem] text-[#2C2C2C] text-[20vh] lg:text-[30vh] bg-clip-text`}>
+          <span className={`${antonio.className} tracking-[1.25rem] text-[#2C2C2C] text-[13vh] lg:text-[30vh] `}>
             <b>CLOVER</b>
           </span>
-          <span className={`bg-black text-[60vh] lg:text-[5.5vh] py-5 inline-block text-transparent bg-clip-text mt-4`}>
+          <span className={`bg-black text-[2vh]  lg:text-[5.5vh] py-5 inline-block text-transparent bg-clip-text mt-4`}>
             SOCIAL MEDIA MANAGEMENT
           </span>
         </div>

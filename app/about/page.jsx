@@ -81,8 +81,7 @@ const items = [
     },
     {
         
-        header: <div className={`${antonio.className} text-[#2C2C2C]  flex flex-1 w-full h-full min-h-[10rem] rounded-xl text-[20vh]`}>
-            
+        header: <div className={`${antonio.className} text-[#2C2C2C]  flex flex-1 w-full h-full min-h-[10rem] rounded-xl text-[13vh] lg:text-[22vh]`}>
         <b>MEET US</b>
     </div>,
 
@@ -96,17 +95,17 @@ const items = [
     },
     {
        header: <div>
-        <p className={`${antonio.className} text-[#2C2C2C] text-7xl`}>
+        <p className={`${antonio.className} text-[#2C2C2C] text-6xl lg:text-7xl`}>
             <b>
            EDUCATE
            </b>
         </p>
-        <p className={`${antonio.className} text-[#2C2C2C] text-7xl py-4` }>
+        <p className={`${antonio.className} text-[#2C2C2C] text-6xl lg:text-7xl py-4` }>
             <b>
             ASPIRE
             </b>
         </p>
-        <p className={`${antonio.className} text-[#2C2C2C] text-7xl`}>
+        <p className={`${antonio.className} text-[#2C2C2C] text-6xl lg:text-7xl`}>
             <b>
             INSPIRE
             </b>
@@ -117,9 +116,9 @@ const items = [
     },
     {
         header: <>
-        <br></br>
-        <p class='uppercase tracking-[2px]' >
-        We kicked off our journey in the world of social media management on April 24, 2023. We've taken our name from the lucky clover, inspired by our four enthusiastic co-founders, each symbolizing one of its leaves. With mottos like "Never run out of Luck with Clover" and "Unleashing Imagination with Strategic Brilliance," we're here to tap into the ever-expanding realm of social media                </p>
+        
+        <p class='uppercase tracking-[2px] lg:text-lg' >
+        We kicked off our journey in the world of social media management on April 24, 2023. We've taken our name from the lucky clover, inspired by our four enthusiastic co-founders, each symbolizing one of its leaves. With mottos like <b>"Never run out of Luck with Clover"</b>  and <b>"Unleashing Imagination with Strategic Brilliance,"</b>  we're here to tap into the ever-expanding realm of social media                </p>
             </>
 
     },
