@@ -62,15 +62,15 @@ const ContactComponent = () => {
                 <form onSubmit={handleSubmit} method="POST" action="https://script.google.com/macros/s/AKfycbwD_Y3rXsMNHBqjgwxHCxz2ayMUOowOpcYRgnGGlGL2m7BRyDUoTJ9YtOgAnuOAAL_q/exec" className="space-y-8">
                     <div>
                         <label className="block mb-2 text-xl font-bold text-black">Name</label>
-                        <input type="text" id="name" name="name" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Name" required />
+                        <input type="text" id="name" name="name" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Full Name" required />
                     </div>
                     <div>
                         <label className="block mb-2 text-xl font-bold text-black">Email</label>
-                        <input type="email" id="email" name="email" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="hello@gmail.com" required />
+                        <input type="email" id="email" name="email" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="example@gmail.com" required />
                     </div>
                     <div>
                         <label className="block mb-2 text-xl font-bold text-black">Contact Number</label>
-                        <input type="text" id="contact" name="contact" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="+code 38383838" required />
+                        <input type="text" id="contact" name="contact" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="+971XXXXXXXXXX" required />
                     </div>
                     <div>
                         <label className="block mb-2 text-xl font-bold text-black">Your Business Type</label>
@@ -88,17 +88,17 @@ const ContactComponent = () => {
                     <div>
                         <label className="block mb-2 text-xl font-bold text-black">Preferred social media platform:</label>
                         <select name="preferred Social Media" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" id="type">
-                            <option value="facebook">Facebook</option>
-                            <option value="twitter">Twitter</option>
                             <option value="instagram">Instagram</option>
+                            <option value="facebook">Facebook</option>
+                            <option value="linkedin">Linkedin</option>
+                            <option value="tiktok">Tiktok</option>
                         </select>
                     </div>
                     <div>
                         <label className="block mb-2 text-xl font-bold text-black">Do you have an existing social media page?</label>
                         <select id="socialMedia" name="Have Social Media" onChange={handleSocialMediaChange} className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light">
-                            <option value="choose">Choose</option>
-                            <option value="yes">Yes</option>
                             <option value="no">No</option>
+                            <option value="yes">Yes</option>
                         </select>
                     </div>
                     {hasSocialMedia && (
@@ -110,6 +110,12 @@ const ContactComponent = () => {
                                 <option value="instagram">Instagram</option>
                             </select>
                         </div>
+                    )}
+                    {hasSocialMedia && (
+                        <div>
+                        <label className="block mb-2 text-xl font-bold text-black">Social Media page URL</label>
+                        <input type="text" id="url" name="url" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="https://www.instagram.com/company/" required />
+                    </div>
                     )}
                     <div className="sm:col-span-2">
                         <label className="block mb-2 text-xl font-bold text-black">Describe your Brand Voice (Optional)</label>

@@ -72,7 +72,6 @@ const BentoComponent = () => {
 
       <div className="p-8 grid gap-4 grid-cols-2 lg:grid-cols-6">
         <div className="col-span-2">
-          <br />
           <span className={`${antonio.className} text-[5vh]  lg:text-[10vh] `}>
             <b>CLOVER VISION</b>
           </span>
