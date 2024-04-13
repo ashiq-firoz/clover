@@ -106,6 +106,7 @@ const BentoComponent = () => {
               <img src="/img/clients/talea.png" className="rounded-md" alt="" />
             </div>
             <div className="col-span-2">
+              <br></br>
               <img src="/img/clients/wicked.png" className="rounded-md" alt="" />
             </div>
             <div className="col-span-2">
