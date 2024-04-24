@@ -7,7 +7,7 @@ export default function NavBarComponent({ className }) {
   const [active, setActive] = useState(null);
   return (
     <>
-      <div className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}>
+      <div className={cn("fixed top-2  inset-x-0 max-w-2xl mx-auto z-50 ", className)}>
         <Menu setActive={setActive}>
           <HoveredLink href="/">
             <div className="flex items-center">

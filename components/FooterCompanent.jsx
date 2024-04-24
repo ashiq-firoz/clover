@@ -1,6 +1,6 @@
 const FooterComponent = () => {
   return (
-    <footer className="relative h-[30vh] flex flex-col items-center bg-[#000000] overflow-hidden md:py-10">
+    <footer className="relative h-[25vh] flex flex-col items-center bg-[#000000] overflow-hidden md:py-10">
       <div className="relative z-[1] container m-auto px-6 md:px-12">
         <div className="m-auto md:w-10/12 lg:w-8/12 xl:w-6/12">
           <div className="flex flex-col flex-wrap items-center justify-between md:flex-nowrap">
@@ -16,7 +16,7 @@ const FooterComponent = () => {
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      fill="#0077B5"
+                      fill="currentColor"
                       viewBox="0 0 448 512"
                       className="w-6"
                     >
