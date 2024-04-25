@@ -40,10 +40,11 @@ export const StickyScroll = ({
   ];
 
   const backgroundImgs = [
-    "url('/img/2.jpg')",
-    "url('/img/4.jpg')",
-    "url('/img/6.jpg')",
-    "url('/img/8.jpg')",
+    "url('/img/1.jpg')",
+    "url('/img/3.jpg')",
+    "url('/img/5.jpg')",
+    
+    "url('/img/9.jpg')",
   ];
 
   const linearGradients = [
@@ -56,6 +57,7 @@ export const StickyScroll = ({
     <motion.div
       animate={{
         backgroundImage: backgroundImgs[activeCard % backgroundImgs.length],
+        backdropFilter: 'none',
       }}
       className="h-[30rem] overflow-y-auto flex justify-center relative space-x-10  p-10"
       ref={ref}
@@ -65,13 +67,13 @@ export const StickyScroll = ({
           {content.map((item, index) => (
             <div key={item.title + index} className="my-20">
               <h2
-                
+
                 className="text-2xl font-bold text-black"
               >
                 {item.title}
               </h2>
               <p
-                
+
                 className="text-kg text-black max-w-sm mt-10"
               >
                 {item.description}
