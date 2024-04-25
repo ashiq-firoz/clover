@@ -115,7 +115,7 @@ export default function StickyScrollRevealDemo() {
     <>
     
     <center>
-      <div className="h-[20vh] bg-[#d6d3d1]">
+      <div className="h-[20vh] bg-[#D6D5D3]">
       <br /><br /><br /> <br />
         {/* <span  className={`${monoton.className} text-4xl text-white py-10`}>
                     OUR SERVICES
