@@ -43,10 +43,10 @@ export const StickyScroll = ({
     "url('/img/1.jpg')",
     "url('/img/3.jpg')",
     "url('/img/5.jpg')",
-    
     "url('/img/9.jpg')",
   ];
-
+  
+  
   const linearGradients = [
     "linear-gradient(to bottom right, var(--cyan-500), var(--emerald-500))",
     "linear-gradient(to bottom right, var(--pink-500), var(--indigo-500))",

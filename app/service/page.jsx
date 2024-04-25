@@ -114,14 +114,6 @@ export default function StickyScrollRevealDemo() {
   return (
     <>
     
-    <center>
-      <div className="h-[20vh] bg-[#D6D5D3]">
-      <br /><br /><br /> <br />
-        {/* <span  className={`${monoton.className} text-4xl text-white py-10`}>
-                    OUR SERVICES
-        </span> */}
-      </div>
-    </center>
       <StickyScroll content={content} />
 
     </>
