@@ -1,17 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-Git update steps : 
-```bash
-
-git fetch
-git add --all
-git commit -m "some message"
-git pull
-git push -u origin master
-
-```
+## CLOVER CREATIVE
 
 First, run the development server:
 
