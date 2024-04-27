@@ -8,7 +8,7 @@ import { Monoton } from 'next/font/google'
 export const monoton = Monoton({
   subsets: ['latin'],
   display: 'swap',
-  weight : '400'
+  weight: '400'
 });
 
 const content = [
@@ -50,14 +50,14 @@ const content = [
       "We actively engage with your audience, responding to comments, messages, and feedback promptly. We foster a sense of belonging and encourage meaningful interactions. By humanizing your brand and creating a sense of community, we strengthen customer loyalty and drive organic growth, ensuring your brand's presence thrives in the digital space.",
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
-      <Image
-        src="/img/5.jpg"
-        width={300}
-        height={300}
-        className="h-full w-full object-cover"
-        alt="linear board demo"
-      />
-    </div>
+        <Image
+          src="/img/5.jpg"
+          width={300}
+          height={300}
+          className="h-full w-full object-cover"
+          alt="linear board demo"
+        />
+      </div>
     ),
   },
   {
@@ -66,14 +66,14 @@ const content = [
       "Whether it's product photography, lifestyle shoots, event coverage, or promotional videos, we have the expertise to bring your vision to life. Our team of creative professionals ensures that every frame aligns with your brand identity and marketing goals. Let us turn your ideas into captivating visual content that leaves a lasting impression.",
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
-      <Image
-        src="/img/7.jpg"
-        width={300}
-        height={300}
-        className="h-full w-full object-cover"
-        alt="linear board demo"
-      />
-    </div>
+        <Image
+          src="/img/7.jpg"
+          width={300}
+          height={300}
+          className="h-full w-full object-cover"
+          alt="linear board demo"
+        />
+      </div>
     ),
   },
   {
@@ -113,8 +113,97 @@ const content = [
 export default function StickyScrollRevealDemo() {
   return (
     <>
-    
-      <StickyScroll content={content} />
+      <br /><br /><br />
+      {/* <StickyScroll content={content} /> */}
+
+      <div className="p-10 grid grid-cols-12 gap-2 h-[50vh]">
+
+        <div className="col-span-12 lg:col-span-8">
+          <h2 className="text-2xl font-bold text-black">STRATEGY DEVELOPMENT</h2>
+          <p className="text-kg py-4 text-black ">Our strategies encompass content calendars, audience engagement tactics, platform selection, and KPIs to measure success. By continuously analyzing data and refining our approach, we ensure your brand remains agile and responsive in the dynamic world of social media.</p>
+        </div>
+        <div className="col-span-4">
+          <Image
+            src="/img/1.jpg"
+            width={300}
+            height={300}
+            className="h-full w-full object-cover rounded-md hidden sm:block"
+            alt="linear board demo"
+          />
+        </div>
+      </div>
+
+      <div className="p-10 grid grid-cols-12 gap-2 h-[50vh]">
+
+        <div className="col-span-12 lg:col-span-8">
+          <h2 className="text-2xl font-bold text-black">CONTENT CREATION</h2>
+          <p className="text-kg py-4 text-black ">We craft tailored and engaging content that captures your brand's essence and resonates with your target audience. From captivating articles to stunning visuals, we bring your brand story to life across platforms. With planning and attention to detail, we create exceptional content that helps your brand stand out and drive results in the digital landscape.</p>
+        </div>
+        <div className="col-span-4">
+          <Image
+            src="/img/3.jpg"
+            width={300}
+            height={300}
+            className="h-full w-full object-cover rounded-md hidden sm:block"
+            alt="linear board demo"
+          />
+        </div>
+      </div>
+
+
+      <div className="p-10 grid grid-cols-12 gap-2 h-[50vh]">
+
+        <div className="col-span-12 lg:col-span-8">
+          <h2 className="text-2xl font-bold text-black">COMMUNITY MANAGEMENT</h2>
+          <p className="text-kg py-4 text-black ">We actively engage with your audience, responding to comments, messages, and feedback promptly. We foster a sense of belonging and encourage meaningful interactions. By humanizing your brand and creating a sense of community, we strengthen customer loyalty and drive organic growth, ensuring your brand's presence thrives in the digital space.</p>
+        </div>
+        <div className="col-span-4">
+          <Image
+            src="/img/5.jpg"
+            width={300}
+            height={300}
+            className="h-full w-full object-cover rounded-md hidden sm:block"
+            alt="linear board demo"
+          />
+        </div>
+      </div>
+      <br />
+
+      <div className="p-10 grid grid-cols-12 gap-2 h-[50vh]">
+
+        <div className="col-span-12 lg:col-span-8">
+          <h2 className="text-2xl font-bold text-black">PHOTOGRAPHY</h2>
+          <p className="text-kg py-4 text-black ">Whether it's product photography, lifestyle shoots, event coverage, or promotional videos, we have the expertise to bring your vision to life. Our team of creative professionals ensures that every frame aligns with your brand identity and marketing goals. Let us turn your ideas into captivating visual content that leaves a lasting impression.</p>
+        </div>
+        <div className="col-span-4">
+          <Image
+            src="/img/7.jpg"
+            width={300}
+            height={300}
+            className="h-full w-full object-cover rounded-md hidden sm:block"
+            alt="linear board demo"
+          />
+        </div>
+      </div>
+
+      <div className="p-10 grid grid-cols-12 gap-2 h-[50vh]">
+
+        <div className="col-span-12 lg:col-span-8">
+          <h2 className="text-2xl font-bold text-black">WEB TECH</h2>
+          <p className="text-kg py-4 text-black ">Our web designers collaborate with you to understand and, ensure that every aspect of the design aligns with your brand values and objectives. We have the expertise to deliver a customised web design solution that enhances your online presence and drives meaningfull results.</p>
+        </div>
+        <div className="col-span-4">
+          <Image
+            src="/img/9.jpg"
+            width={300}
+            height={300}
+            className="h-full w-full object-cover rounded-md hidden sm:block"
+            alt="linear board demo"
+          />
+        </div>
+      </div>
+
+
 
     </>
   );

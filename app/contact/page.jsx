@@ -52,7 +52,7 @@ const ContactComponent = () => {
         <section className="bg-[url('/img/hero.jpg')]" style={{
             
             backgroundPosition: "bottom",
-            backgroundSize: "cover",
+            backgroundSize: "contain",
         }}>
             <br /><br />
             <div className="py-16 lg:py-18 px-4 mx-auto max-w-screen-md">

@@ -1,4 +1,4 @@
-'use client'
+"use client"
 
 import React, { useRef, useState } from "react";
 import { useMotionValueEvent, useScroll } from "framer-motion";
@@ -32,51 +32,43 @@ export const StickyScroll = ({
     setActiveCard(closestBreakpointIndex);
   });
 
-  const backgroundColors = [
-    "var(--slate-900)",
-    "var(--slate-900)",
-    "var(--neutral-900)",
-    "var(--neutral-900)",
-  ];
-
   const backgroundImgs = [
     "url('/img/1.jpg')",
     "url('/img/3.jpg')",
     "url('/img/5.jpg')",
     "url('/img/9.jpg')",
   ];
-  
-  
+
   const linearGradients = [
     "linear-gradient(to bottom right, var(--cyan-500), var(--emerald-500))",
     "linear-gradient(to bottom right, var(--pink-500), var(--indigo-500))",
     "linear-gradient(to bottom right, var(--orange-500), var(--yellow-500))",
     "linear-gradient(to bottom right, var(--cyan-500), var(--emerald-500))",
   ];
+
   return (
     <motion.div
       animate={{
         backgroundImage: backgroundImgs[activeCard % backgroundImgs.length],
         backdropFilter: 'none',
-        
+      }}
+      transition={{
+        type: "spring",
+        stiffness: 500,
+        damping: 50,
       }}
       className="h-[80vh] overflow-y-auto flex justify-center relative space-x-10  p-10"
       ref={ref}
+      style={{ scrollBehavior: 'smooth' }}
     >
-      <div className="div relative flex items-start px-4">
+      <div className="div relative flex items-start px-4 py-8">
         <div className="max-w-2xl">
           {content.map((item, index) => (
             <div key={item.title + index} className="my-20">
-              <h2
-
-                className="text-2xl font-bold text-black"
-              >
+              <h2 className="text-2xl font-bold text-black">
                 {item.title}
               </h2>
-              <p
-
-                className="text-kg text-black max-w-sm mt-10"
-              >
+              <p className="text-kg text-black max-w-sm mt-10">
                 {item.description}
               </p>
             </div>
