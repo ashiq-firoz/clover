@@ -205,7 +205,7 @@ export default function StickyScrollRevealDemo() {
       
       <div className="fixed bottom-10 right-10 z-50">
   <button className=" bg-gradient-to-r from-green-400 to-green-500 hover:from-green-500 hover:to-green-600 text-white font-bold py-2 px-4 rounded-full shadow-lg">
-    <a href="https://api.whatsapp.com/send/?phone=%2B971527074607&text=I%27m+interested+in+your+services&type=phone_number&app_absent=0" >
+    <a href="https://api.whatsapp.com/send/?phone=%2B971527074607&text=I%27m+interested+,+tell+me+more+about+your+service&type=phone_number&app_absent=0" >
     <IoLogoWhatsapp size={24} /> 
     </a>
   </button>

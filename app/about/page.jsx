@@ -57,7 +57,7 @@ const items = [
     {
         title: "CATHERINE GREEN",
         position: "Media Account Manager",
-        description: "Catherine helps clients develop effective social media content to increase their online presence and engage with their target audience and is dedicated to creating high-quality content.",
+        description: "Catherine helps clients develop effective social media content to increase their online presence, engage their target audience and is dedicated to creating high-quality content.",
         header: <Skeleton child={<img src="/img/catherine.webp" className="rounded" />} />,
         icon1: <a href="https://instagram.com/cmgjvk?igshid=YmMyMTA2M2Y="><FaInstagram/></a>,
         icon2:<a href="https://www.linkedin.com/in/catherine-green-marketingstudent/"><FaLinkedinIn/></a>,
@@ -80,7 +80,7 @@ const items = [
     {
         title: "ANANDAN ANIL",
         position: "Videographer",
-        description: "With his passion for storytelling and his eye for detail, Anandan is responsible for creating compelling and engaging video content that resonates with his company's target audience.",
+        description: "With his passion for storytelling and his eye for detail, Anandan is responsible for creating compelling and engaging video content that resonates and captivates.",
         header: <Skeleton child={<img src="/img/anandan.jpg" className="rounded" />} />,
         icon1: <a href="https://www.instagram.com/anandannaiir?igsh=ZGZra3Fpa2VyMjR0"><FaInstagram/></a>,
     },
@@ -108,7 +108,7 @@ const items = [
     {
         header: <>
         
-        <p class='uppercase tracking-[2px] lg:text-lg' >
+        <p className='uppercase tracking-[1.3px] lg:text-lg' >
         We kicked off our journey in the world of social media management on April 24, 2023. We've taken our name from the lucky clover, inspired by our four enthusiastic co-founders, each symbolizing one of its leaves. With mottos like <b>"Never run out of Luck with Clover"</b>  and <b>"Unleashing Imagination with Strategic Brilliance,"</b>  we're here to tap into the ever-expanding realm of social media                </p>
             </>
 

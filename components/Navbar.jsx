@@ -5,7 +5,7 @@ import { cn } from "@app/util/cn";
 
 export default function NavBarComponent({ className }) {
   const [active, setActive] = useState(null);
-  //"https://wa.me/918129778894"
+ 
   return (
     <>
       <div className={cn("fixed top-2  inset-x-0 max-w-2xl mx-auto z-50 ", className)}>
