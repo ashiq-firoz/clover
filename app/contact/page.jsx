@@ -49,7 +49,7 @@ const ContactComponent = () => {
     };
 
     return (
-        <section className="bg-[url('/img/hero.jpg')]" style={{
+        <section className="lg:bg-[url('/img/hero.jpg')]" style={{
             
             backgroundPosition: "bottom",
             backgroundSize: "contain",
@@ -69,7 +69,7 @@ const ContactComponent = () => {
                         <input type="email" id="email" name="email" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="example@gmail.com" required />
                     </div>
                     <div>
-                        <label className="block mb-2 text-xl font-bold text-black">Contact Number</label>
+                        <label className="block mb-2 text-xl font-bold text-black"> Contact Number</label>
                         <input type="text" id="contact" name="contact" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="+971XXXXXXXXXX" required />
                     </div>
                     <div>
