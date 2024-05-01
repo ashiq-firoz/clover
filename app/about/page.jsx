@@ -21,7 +21,7 @@ function BentoGridDemo() {
             <br></br>
             <br></br>
             <br></br>
-            <BentoGrid className="max-w-4xl mx-auto">
+            <BentoGrid className="max-w-6xl mx-auto">
                 {items.map((item, i) => (
                     <BentoGridItem
                         key={i}
@@ -40,7 +40,7 @@ function BentoGridDemo() {
 }
 
 const Skeleton = ({ child }) => (
-    <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl ">
+    <div className="flex flex-1 w-full h-full min-h-24 rounded-xl ">
         {child}
     </div>
 );
@@ -57,7 +57,7 @@ const items = [
     {
         title: "CATHERINE GREEN",
         position: "Media Account Manager",
-        description: "Catherine helps clients develop effective social media content to increase their online presence, engage their target audience and is dedicated to creating high-quality content.",
+        description: "Catherine helps clients develop effective social media content to increase their online presence, engage their target audience and is dedicated to creating quality content.",
         header: <Skeleton child={<img src="/img/catherine.webp" className="rounded" />} />,
         icon1: <a href="https://instagram.com/cmgjvk?igshid=YmMyMTA2M2Y="><FaInstagram/></a>,
         icon2:<a href="https://www.linkedin.com/in/catherine-green-marketingstudent/"><FaLinkedinIn/></a>,
