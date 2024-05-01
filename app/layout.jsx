@@ -8,7 +8,6 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Clover Creative ',
-  favicon: '/favicon.ico',
   description: 'Clover Creative Social Media Management UAE, clover is a social media management company running in UAE, supports clients from around uae and arab countries',
 };
 
