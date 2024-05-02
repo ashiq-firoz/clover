@@ -49,7 +49,13 @@ const ContactComponent = () => {
     };
 
     return (
-        <section className="bg-[url('/img/book1.jpg')]" >
+        <section  style={ {
+            backgroundImage: "url('/img/book1.jpg')",
+            backgroundSize: "100vw auto",
+            '@screen sm': { // Apply 100vw auto for screens equal to or larger than sm
+                backgroundSize: "none",
+              },
+          }}>
             <br /><br />
             <div className="py-16 lg:py-18 px-4 mx-auto max-w-screen-md">
                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-black">BOOK NOW! </h2>
