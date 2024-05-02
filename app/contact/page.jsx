@@ -49,7 +49,7 @@ const ContactComponent = () => {
     };
 
     return (
-        <section className="bg-[url('/img/book3.jpg')]" >
+        <section className="bg-[url('/img/book1.jpg')]" >
             <br /><br />
             <div className="py-16 lg:py-18 px-4 mx-auto max-w-screen-md">
                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-black">BOOK NOW! </h2>
