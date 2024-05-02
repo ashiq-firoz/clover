@@ -112,7 +112,7 @@ const content = [
 ];
 
 export default function StickyScrollRevealDemo() {
- 
+
   return (
     <>
       <br /><br /><br />
@@ -204,13 +204,15 @@ export default function StickyScrollRevealDemo() {
           />
         </div>
       </div>
-      
+
       <div className="fixed bottom-10 right-10 z-50">
-  <button className="bg-gradient-to-r from-green-400 to-green-500 hover:from-green-500 hover:to-green-600 text-white font-bold py-2 px-4 rounded-full shadow-lg flex items-center justify-center">
-    <IoLogoWhatsapp size={24} className="mr-2" />
-    <span>Let's chat!</span>
-  </button>
-</div>
+        <button className="bg-gradient-to-r from-green-400 to-green-500 hover:from-green-500 hover:to-green-600 text-white font-bold py-2 px-4 rounded-full shadow-lg flex items-center justify-center">
+          <a target="blank" href="https://api.whatsapp.com/send/?phone=%2B971527074607&text=I%27m+interested+,+tell+me+more+about+your+service&type=phone\_number&app\_absent=0" > 
+          <IoLogoWhatsapp size={24} /> 
+          </a>
+          <span>Let's chat!</span>
+        </button>
+      </div>
 
 
 
