@@ -1,4 +1,5 @@
-import React from "react";
+"use client"
+import React, { useState } from "react";
 import Image from "next/image";
 import { IoLogoWhatsapp } from "react-icons/io";
 
@@ -111,6 +112,15 @@ const content = [
 ];
 
 export default function StickyScrollRevealDemo() {
+  const [showTooltip, setShowTooltip] = useState(false);
+
+  const handleMouseEnter = () => {
+    setShowTooltip(true);
+  };
+
+  const handleMouseLeave = () => {
+    setShowTooltip(false);
+  };
   return (
     <>
       <br /><br /><br />
@@ -204,12 +214,24 @@ export default function StickyScrollRevealDemo() {
       </div>
       
       <div className="fixed bottom-10 right-10 z-50">
-  <button className=" bg-gradient-to-r from-green-400 to-green-500 hover:from-green-500 hover:to-green-600 text-white font-bold py-2 px-4 rounded-full shadow-lg">
-    <a href="https://api.whatsapp.com/send/?phone=%2B971527074607&text=I%27m+interested+,+tell+me+more+about+your+service&type=phone_number&app_absent=0" >
-    <IoLogoWhatsapp size={24} /> 
-    </a>
-  </button>
-</div>
+      <div className="relative">
+        <button
+          className="bg-gradient-to-r from-green-400 to-green-500 hover:from-green-500 hover:to-green-600 text-white font-bold py-2 px-4 rounded-full shadow-lg"
+         
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+        >
+          <a href="https://api.whatsapp.com/send/?phone=%2B971527074607&text=I%27m+interested+,+tell+me+more+about+your+service&type=phone_number&app_absent=0">
+            <IoLogoWhatsapp size={24} />
+          </a>
+        </button>
+        {showTooltip && (
+          <div className="absolute bg-gray-800 w-16 text-white text-xs rounded-lg p-1 bottom-8 left-1/2 transform -translate-x-1/2 opacity-100 pointer-events-auto transition-opacity duration-300">
+            Let's chat!
+          </div>
+        )}
+      </div>
+    </div>
 
 
 

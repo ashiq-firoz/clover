@@ -40,17 +40,28 @@ function BentoGridDemo() {
 }
 
 const Skeleton = ({ child }) => (
-    <div className="flex flex-1 w-full h-full min-h-24 rounded-xl ">
-        {child}
+    <div className="flex flex-1 w-full h-full min-h-24 rounded-xl">
+      {child.type === 'img' ? (
+        <div className="flex justify-center items-center w-full h-full">
+          <img
+            src={child.props.src}
+            alt={child.props.alt}
+            className="max-w-full max-h-full rounded-xl"
+          />
+        </div>
+      ) : (
+        child
+      )}
     </div>
-);
+  );
+  
 
 const items = [
     {
         title: "AVNEETH JAN",
         position: "Social Media Analyst.",
         description: "Avneeth is passionate about staying up-to-date with the latest social media trends and technologies to help clients succeed in their online presence.",
-        header: <Skeleton child={<img src="/img/avneeth.webp" className="rounded" />} />,
+        header: <Skeleton child={<img src="/img/avneeth.webp" className="rounded object-contain" />} />,
         icon1: <a href="https://instagram.com/ave_jan_?igshid=YmMyMTA2M2Y="><FaInstagram/></a>,
         icon2:<a href="https://www.linkedin.com/company/wix-com"><FaLinkedinIn/></a>,
     },
@@ -58,7 +69,7 @@ const items = [
         title: "CATHERINE GREEN",
         position: "Media Account Manager",
         description: "Catherine helps clients develop effective social media content to increase their online presence, engage their target audience and is dedicated to creating quality content.",
-        header: <Skeleton child={<img src="/img/catherine.webp" className="rounded" />} />,
+        header: <Skeleton child={<img src="/img/catherine.webp" className="rounded object-contain" />} />,
         icon1: <a href="https://instagram.com/cmgjvk?igshid=YmMyMTA2M2Y="><FaInstagram/></a>,
         icon2:<a href="https://www.linkedin.com/in/catherine-green-marketingstudent/"><FaLinkedinIn/></a>,
     },
@@ -66,7 +77,7 @@ const items = [
         title: "SIYONA SHAJIL",
         position: "Social Media Strategist",
         description: "Siyona is responsible for developing and executing innovative strategies that help her company stay ahead of the competition.She provides valuable insights to her clients.",
-        header: <Skeleton child={<img src="/img/Siyona.webp" className="rounded" />} />,
+        header: <Skeleton child={<img src="/img/Siyona.webp" className="rounded object-contain" />} />,
         icon1: <a href="https://instagram.com/_itz_siyaaaa_?igshid=YmMyMTA2M2Y="><FaInstagram/></a>,
         icon2:<a href="https://www.linkedin.com/in/siyona-shajil-b9946b20b/"><FaLinkedinIn/></a>,
     },
@@ -81,7 +92,7 @@ const items = [
         title: "ANANDAN ANIL",
         position: "Videographer",
         description: "With his passion for storytelling and his eye for detail, Anandan is responsible for creating compelling and engaging video content that resonates and captivates.",
-        header: <Skeleton child={<img src="/img/anandan.jpg" className="rounded" />} />,
+        header: <Skeleton child={<img src="/img/anandan.jpg" className="rounded object-contain" />} />,
         icon1: <a href="https://www.instagram.com/anandannaiir?igsh=ZGZra3Fpa2VyMjR0"><FaInstagram/></a>,
     },
     {

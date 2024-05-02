@@ -49,10 +49,7 @@ const ContactComponent = () => {
     };
 
     return (
-        <section className="bg-[#dff3dd] lg:bg-[url('/img/hero2.jpg')]" style={{
-            backgroundPosition: "bottom",
-            backgroundSize: "cover",
-        }}>
+        <section className="bg-[url('/img/book3.jpg')]" >
             <br /><br />
             <div className="py-16 lg:py-18 px-4 mx-auto max-w-screen-md">
                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-black">BOOK NOW! </h2>
