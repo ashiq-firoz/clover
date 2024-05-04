@@ -22,7 +22,7 @@ export default function FAQ() {
             <div className="py-16 lg:py-10 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
                 <center>
 
-                <h2 className={`${antonio.className} mb-8 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white`}>Frequently Asked Questions</h2>
+                <h2 className={`${antonio.className} mb-8 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white`}>FREQUENTLY ASKED QUESTIONS</h2>
                 </center>
                 <div className="grid pt-8 text-left border-t border-gray-200 md:gap-16 dark:border-gray-700 md:grid-cols-2">
                     <div>
