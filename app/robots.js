@@ -12,6 +12,6 @@ export default function robots() {
           disallow: ['/'],
         },
       ],
-      sitemap: 'https://clovercreative.ae//sitemap.xml',
+      sitemap: 'https://clovercreative.ae/sitemap.xml',
     }
   }
