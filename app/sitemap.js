@@ -1,31 +1,31 @@
 export default function sitemap() {
     return [
       {
-        url: 'http://localhost:3000',
+        url: 'https://clovercreative.ae',
         lastModified: new Date(),
         changeFrequency: 'yearly',
         priority: 1,
       },
       {
-        url: 'http://localhost:3000/about',
+        url: 'https://clovercreative.ae/about',
         lastModified: new Date(),
         changeFrequency: 'monthly',
         priority: 0.8,
       },
       {
-        url: 'http://localhost:3000/faq',
+        url: 'https://clovercreative.ae/faq',
         lastModified: new Date(),
         changeFrequency: 'weekly',
         priority: 0.5,
       },
       {
-        url: 'http://localhost:3000/service',
+        url: 'https://clovercreative.ae/service',
         lastModified: new Date(),
         changeFrequency: 'weekly',
         priority: 0.8,
       },
       {
-        url: 'http://localhost:3000/contact',
+        url: 'https://clovercreative.ae/contact',
         lastModified: new Date(),
         changeFrequency: 'weekly',
         priority: 0.8,
