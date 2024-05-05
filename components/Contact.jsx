@@ -50,7 +50,7 @@ const ContactComponent = () => {
                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-white">SEND US AN ENQUIRY! </h2>
                 <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Connect Anytime, Anywhere - Work with Us
                     Wherever You are..</p>
-                <form onSubmit={handleSubmit} className="space-y-8" method="POST" action="https://script.google.com/macros/s/AKfycbyejRgBNPktGQ5kuXX5KpENO9fdrBRWq7LPDLUjjUN3tpGqopmngDWlBljhr5-3oYSL/exec">
+                <form onSubmit={handleSubmit} className="space-y-8" method="POST" action="https://script.google.com/macros/s/AKfycbx_VHpDquZMAngvYAn8Anv_VnYjAFK2SE9Bc4TaBMEOvZz6myV19W_9e2Aqrk_SqRY1/exec">
                     <div>
                         <label className="block mb-2 text-sm font-medium text-gray-300">Name</label>
                         <input type="text" id="name" name="name" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Name" required />
